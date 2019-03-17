@@ -1,0 +1,384 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+a img {
+  border: none;
+}
+a {
+  text-decoration: none;
+}
+a:link,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  outline: none;
+  color: #333;
+}
+/* BASIC STYLES*/
+body {
+  font-size: 16px;
+}
+#sticker {
+  position: fixed;
+  color: #a0a0a0;
+  font: bold 0.875em/1.5 "Times New Roman", Serif, sans-serif;
+  padding: 0 0.4em;
+  left: 34%;
+  bottom: 1em;
+  background: #a00;
+  border: 1px solid #a0a0a0;
+}
+#sticker:hover {
+  border-color: #fff;
+  color: #fff;
+}
+#container {
+  margin: 0.625em auto 4em;
+  width: 100%;
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+}
+#main-nav {
+  position: absolute;
+  left: 0.4em;
+  top: 0.4em;
+}
+#main-nav a {
+  color: #a0a0a0;
+  font-size: 0.875em;
+}
+#main-nav a:hover {
+  color: #333;
+}
+.sidepanel {
+  position: relative;
+  margin-top: 2em;
+}
+.mainpanel {
+  margin-top: 2em;
+}
+.mainpanel .main-wrap {
+  padding: 1em 1em 3em;
+}
+.mainpanel #coverimg {
+  width: 100%;
+  margin-bottom: -4px;
+}
+.mainpanel .category-list li {
+  display: inline-block;
+}
+.mainpanel .category-list li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-indent: 1em;
+  font: 2em/2 SimSun;
+}
+/* BASIC STYLES*/
+/* CATEGORY */
+.category-nav {
+  text-align: center;
+}
+.category-nav h1 {
+  margin-bottom: 1em;
+  font: 2em SimSun;
+}
+.category-nav #archive-caption {
+  font-size: 1em;
+  line-height: 2.5em;
+}
+.category-nav nav .postname {
+  display: inline-block;
+  position: relative;
+  margin-left: 5px;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+}
+.category-nav nav .postname img {
+  max-width: 120px;
+}
+.category-nav nav .postname a {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  text-align: left;
+  padding: 5px;
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  font: 0.875em SimSun;
+  background: rgba(39,39,39,0.7);
+}
+.category-nav nav .postname a:hover {
+  background: none;
+}
+/* CATEGORY */
+/* ARTICLE */
+.mainpanel article .article-meta {
+  margin-bottom: 1em;
+  text-align: right;
+}
+.mainpanel article .article-meta time {
+  color: #a0a0a0;
+  font-size: 0.75em;
+  font-style: italic;
+}
+.mainpanel article .article-inner header h1 {
+  font-size: 1.25em;
+}
+.mainpanel article .article-inner .article-entry {
+  margin: 2.5em 0;
+  line-height: 2;
+}
+.mainpanel article .article-inner .article-entry h1,
+.mainpanel article .article-inner .article-entry h2,
+.mainpanel article .article-inner .article-entry h3,
+.mainpanel article .article-inner .article-entry h4,
+.mainpanel article .article-inner .article-entry h5,
+.mainpanel article .article-inner .article-entry h6 {
+  font-weight: bold;
+  line-height: 2;
+  margin: 1em 0;
+}
+.mainpanel article .article-inner .article-entry img {
+  display: block;
+  margin: 1em 0;
+}
+.mainpanel article .article-inner footer .article-tag-list li {
+  display: inline-block;
+  margin-right: 0.4em;
+}
+.mainpanel article .article-inner footer .article-tag-list li a {
+  font-size: 0.875em;
+  font-style: italic;
+  color: #a0a0a0;
+}
+.mainpanel article .article-inner footer .article-tag-list li a:hover {
+  color: #333;
+}
+.mainpanel article nav {
+  margin-top: 1.25em;
+}
+.mainpanel article nav a {
+  display: block;
+  font-size: 0.875em;
+  line-height: 2;
+}
+.mainpanel article nav a:hover {
+  color: #a00;
+}
+/* ARTICLE */
+/* ARCHIVE */
+.archives-wrap {
+  margin-bottom: 1.25em;
+}
+.archives-wrap .archive-year-wrap a {
+  font: italic 1.25em/2 SimSun;
+  color: #a00;
+}
+.archives-wrap .archives a {
+  font-size: 0.875em;
+  line-height: 2;
+}
+.archives-wrap .archives a:hover {
+  color: #a00;
+}
+/* ARCHIVE */
+/* PAGINATION */
+#page-nav {
+  margin-top: 3em;
+}
+#page-nav .page-number,
+#page-nav .extend {
+  font-style: italic;
+  font-size: 0.875em;
+  color: #a0a0a0;
+  margin-right: 0.75em;
+}
+#page-nav .current,
+#page-nav a:hover {
+  color: #a00;
+}
+/* PAGINATION */
+@media screen and (min-width: 1280px) {
+  body {
+    background: #333;
+  }
+  #sticker {
+    position: fixed;
+    color: #a0a0a0;
+    font: bold 0.875em/1.5 "Times New Roman", Serif, sans-serif;
+    padding: 0 0.4em;
+    left: 34%;
+    bottom: 1em;
+    background: #a00;
+    border: 1px solid #a0a0a0;
+  }
+  .sidepanel {
+    position: absolute;
+    right: 64%;
+    left: 1em;
+    top: 1em;
+    margin-top: 0;
+  }
+  .sidepanel .category-nav {
+    text-align: right;
+  }
+  .sidepanel .category-nav h1 {
+    margin-bottom: 1em;
+    font: 5em SimSun;
+  }
+  .mainpanel {
+    width: 63%;
+    min-height: 540px;
+    position: relative;
+    margin-left: 37%;
+    overflow: hidden;
+    margin-top: 0;
+  }
+  .mainpanel .category-list {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .mainpanel .category-list li {
+    display: block;
+    width: 50%;
+    height: 25%;
+    float: left;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    background: rgba(0,0,0,0.3);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+  }
+  .mainpanel .category-list li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-indent: 1em;
+    font: 3em/2 SimSun;
+  }
+  .mainpanel .category-list li:hover {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+    background: #cc002e;
+    background: rgba(220,0,45,0.7);
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  #main-nav {
+    left: 1em;
+    top: 1em;
+  }
+}
+@media screen and (max-width: 479px) {
+  .article-entry img {
+    width: 100% !important;
+  }
+}
